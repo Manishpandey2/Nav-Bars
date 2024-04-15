@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Very Basic Nav</title>
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color: crimson;
+            font-family: sans-serif;
+            padding: 0 15px;
+            padding: 10px;
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo a{
+            color: white;font-size: 35px;font-weight: 600;text-decoration: none;
+        }
+        .navdiv ul{
+            list-style: none;
+        }
+        .navdiv ul li{
+            display: inline-block;
+            margin-right: 25px;
+        }
+        .navdiv ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .navdiv button{
+            background-color: black;
+            border-radius: 15px;
+            margin-left: 10px;
+            width: 90px;
+            padding: 10px;
+        }
+        .navdiv button a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </Style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Biraalo</a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <button><a href="#">LogIn</a></button>
+                <button><a href="#">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
